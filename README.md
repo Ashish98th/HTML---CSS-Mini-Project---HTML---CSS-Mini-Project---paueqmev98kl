@@ -1,1 +1,6 @@
-# html-css-project-boilerplate
+# Freaky Gym
+**A gym isn’t just a place for exercise; it’s the place you go to unwind, socialize and work out. The gym is a whole experience. Some of the most successful facilities have several gym features that contribute to the kind of member experience that drives retention and sales.**
+## What Makes a Great Gym?
+**Running a gym is tough. State-of-the-art equipment and competitive pricing are important. But these are just a fraction of what makes a gym great. There are several cogs that work together to create a successful fitness business that retains members and drives value. Although the equipment you have can make or break a member’s decision to join your facility, the fitness experience will increase member retention. 
+
+Ultimately, the fitness equipment you have will be determined by your niche. For traditional facilities, you will need pieces of equipment like treadmills, free weights, and rowing machines. For spinning studios, you would expect high-end indoor bikes and not a lot else. Your gym needs to meet the requirements of your members. The layout and space, people, equipment, and workout all contribute to a great gym. You need the right mixture to deliver the best experience.**
