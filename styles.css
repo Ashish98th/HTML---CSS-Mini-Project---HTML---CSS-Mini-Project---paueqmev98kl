@@ -1,121 +1,68 @@
+html,
 body{
-    font-family: 'Balsamiq Sans', cursive;
-    color:white;
+    height: 100%;
     margin: 0px;
-    padding: 0px;
-    background: url('gymgirl.jpg');
-    height: 1000px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
 }
-.left{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display:inline-block;
-/* border: 2px solid red; */
-position:absolute;
-    left:34px;
-    top:18px;
-    background-color: whitesmoke;
-    opacity: 0.4;
-    color:black;
+ .pimg3{
+    background-image: url(rhino.jpg);
+    height: 800px; ;
+} 
+
+.pimg2{
+    background-image: url(Bihudance.jpg);
+    min-height: 850px;
 }
-.left img{
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
+
+.pimg1{
+    background-image: url(beauty3.jpg);
+    min-height: 850px;
+}
+.pimg1,
+.pimg2,
+.pimg3{
+    
+    background-attachment: fixed;
+    position: relative;  /*to control position */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
-.left div{
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.textBg{
+    background-color: rgb(219, 183, 183);
+    padding: 30px 60px;
+    color: crimson;
+    opacity: 0.8;
+}
+
+.section{
+    padding: 50px 80px;
     text-align: center;
 }
-.mid{
-    position: sticky;
-top:4px;
-    display:block;
-    width:37%;
-    /* from x-axis to make the mid box in center  */
-    margin:18px auto;
-    /* border: 2px solid black; */
-    height: 45px;
+
+.section-light{
+    color: #1b83dd;
+    background-color:#c1ddd8;
 }
-.right{
-    margin-top: 12px;
-    position:absolute;
-    right:34px;
-    top:18px;
-    display:inline-block;
-    /* border: 2px solid yellow; */
+h2{
+    text-transform: uppercase;
 }
-.navbar li{
-    /* to make the list in inline-block */
-    display: inline-block;
-    font-size: 17px;
-}
-.navbar li a{
-    /* to color the content inside anchor tags  */
-    color:white;
-    /* to remove the line in a tags  */
-    text-decoration: none;
-    padding: 22px 10px;
-}
-.navbar li a:hover{
+.section-dark{
     color:crimson;
-    text-decoration:underline;
-}
-.btn{
-    font-family:fantasy;
-    margin: 0px 6px;
-    background-color: lightgoldenrodyellow;
-    padding: 1px 9px;
-    border: 2px solid grey;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.btn:hover{
-    background-color: yellow;
-}
-.container{
-    /* border: 2px solid whitesmoke; */
-margin: 111px 82px;
-padding: 99px 90px;
-border-radius: 30px;
-width: 33%;
-background-color: rgb(210, 227, 227);
-opacity: 0.8;
-}
-.form-group input{
-    font-family: 'Balsamiq Sans', cursive;
-    text-align: center;
-display: block;
-width: 57%;
-padding: 6px;
-border: 2px solid black;
-margin: 3px auto;
-border-radius: 21px;
-
- /* we have already set the display as block so we're eligible for margin 3px auto  */
-}
-.container h2{
-    text-align: center;
-    color:yellow;
-    background-color: crimson;
-}
-.container button{
-    /* targeting only the btn class inside the container cutheree are alos btn above the web page  */
-    display: block;
-    width: 23%;
-    margin:auto;
-
-}
-
-.navbar{
-background-color:rgb(62, 14, 62) ;
-height: 50px;
-border-radius: 10px;
-;
-}
-.navbar ul a {
-padding: 10px;
-font-size: 20px;
-}
-.navbar li{
-margin: 12px 1px;
 }
