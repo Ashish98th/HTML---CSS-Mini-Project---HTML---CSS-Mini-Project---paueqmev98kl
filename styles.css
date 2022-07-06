@@ -3,7 +3,7 @@ body{
     height: 100%;
     margin: 0px;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Baloo Bhai 2', cursive;
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
@@ -22,9 +22,27 @@ body{
     background-image: url(beauty3.jpg);
     min-height: 850px;
 }
+
+ .pimg4{
+    background-image: url(flood5.jpg);
+    min-height: 850px;
+}
+.pimg5{
+    background-image: url(flood2.jpg);
+    min-height: 850px;
+}
+.pimg6{
+    background-image: url(deforestration.jpg);
+    min-height: 850px;
+}
 .pimg1,
 .pimg2,
-.pimg3{
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6
+
+{
     
     background-attachment: fixed;
     position: relative;  /*to control position */
@@ -46,18 +64,21 @@ body{
 }
 .textBg{
     background-color: rgb(219, 183, 183);
-    padding: 30px 60px;
+    padding: 30px 92px;;
     color: crimson;
-    opacity: 0.8;
+    opacity: 0.7;
+    
 }
 
 .section{
     padding: 50px 80px;
     text-align: center;
+    color: rgb(165 42 42);
+    
 }
 
 .section-light{
-    color: #1b83dd;
+    color: #225e13;
     background-color:#c1ddd8;
 }
 h2{
@@ -65,4 +86,5 @@ h2{
 }
 .section-dark{
     color:crimson;
+    background-color: #ebcada;
 }
